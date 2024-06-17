@@ -40,12 +40,13 @@ const BookModal: React.FC<Props> = ({ book, onClose }) => {
           <BiUserCircle className="text-red-300 text-2xl" />
           <h2 className="my-1">{book.author}</h2>
         </div>
-        <p className="mt-4">Anything you want to show</p>
+        <p className="mt-4">Welcome to our Book Hub</p>
         <p className="my-2">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
-          corporis molestias aliquid quia vel itaque non quae libero molestiae,
-          veniam voluptas, id quasi error nulla debitis rem minima similique
-          corrupti.
+          Book Hub is a web application designed for discovering books 
+          and encouraging reading for both pleasure and education.
+          We provide a broad and diverse range of books which are a perfect blend 
+          of syntax and diction that enhances the moral of the stories and 
+          sparks the curiosity of the readers.
         </p>
       </div>
     </div>
